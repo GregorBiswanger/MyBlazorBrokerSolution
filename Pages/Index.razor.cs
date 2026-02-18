@@ -7,7 +7,7 @@ namespace MyBlazorBroker.Pages;
 
 public partial class Index : IDisposable
 {
-    public List<Stock>? Stocks { get; set; } = new();
+    public List<Stock> Stocks { get; set; } = new();
 
     [Inject]
     public IStocksDataService StocksDataService { get; set; } = default!;
@@ -23,7 +23,7 @@ public partial class Index : IDisposable
 
     private async Task GetStocksAsync()
     {
-        Stocks = await StocksDataService.GetStocksAsync();
+        Stocks = await StocksDataService.GetStocksAsync() ?? new();
         StateHasChanged();
     }
 

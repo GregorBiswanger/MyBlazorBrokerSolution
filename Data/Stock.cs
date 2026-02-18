@@ -2,12 +2,12 @@
 
 public class Stock
 {
-    public string Symbol { get; set; }
-    public string Name { get; set; }
-    public string Change { get; set; }
-    public string Currency { get; set; }
-    public string LastTradeDate { get; set; }
-    public string LastTradePriceOnly { get; set; }
-    public string ChangeinPercent { get; set; }
-    public string LastTradeTime { get; set; }
+    public string Symbol { get; set; } = string.Empty;
+    public string Name { get; set; } = string.Empty;
+    public string Change { get; set; } = string.Empty;
+    public string Currency { get; set; } = string.Empty;
+    public string LastTradeDate { get; set; } = string.Empty;
+    public string LastTradePriceOnly { get; set; } = string.Empty;
+    public string ChangeinPercent { get; set; } = string.Empty;
+    public string LastTradeTime { get; set; } = string.Empty;
 }

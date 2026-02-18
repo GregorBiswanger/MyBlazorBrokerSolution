@@ -8,10 +8,10 @@ public partial class NewStock
     public string StockName { get; set; } = string.Empty;
 
     [Inject]
-    public NavigationManager NavigationManager { get; set; }
+    public NavigationManager NavigationManager { get; set; } = default!;
 
     [Inject]
-    public IStocksService StocksService { get; set; }
+    public IStocksService StocksService { get; set; } = default!;
 
     public void AddStock()
     {

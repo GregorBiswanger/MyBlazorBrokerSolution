@@ -6,7 +6,7 @@ namespace MyBlazorBroker.Shared
     public partial class MainLayout
     {
         [Inject]
-        public IStocksService StocksService { get; set; }
+        public IStocksService StocksService { get; set; } = default!;
 
         public void InvokeRefreshStocks()
         {

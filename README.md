@@ -8,7 +8,7 @@ https://gregorbiswanger.github.io/MyBroker/
 
 ## Vorbereitungen für den Start
 Folgendes benötigst du für das Projekt:    
-- [.NET 6 SDK](https://dotnet.microsoft.com/download/dotnet/6.0 "dotnet.microsoft.com/download/dotnet/6.0") (läuft auf Windows, Mac und Linux)  
+- [.NET 10 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/10.0 "dotnet.microsoft.com/download/dotnet/10.0") (läuft auf Windows, Mac und Linux)  
 - [Visual Studio](https://visualstudio.microsoft.com "visualstudio.microsoft.com") oder [Visual Studio Code](https://code.visualstudio.com "code.visualstudio.com") mit der Blazor-Erweiterung (läuft auf Windows, Mac und Linux)  
   
 Ein komplettes Übungsprojekt habe ich schon für dich auf GitHub vorbereitet:    
